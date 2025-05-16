@@ -8,6 +8,13 @@
   margin-bottom: -35px;
   flex: 1 1 auto;
   position: relative;
+  &__btn-top-w {
+    max-width: 1500px;
+    position: sticky;
+    z-index: 99;
+    bottom: 40px;
+    margin: 0 auto;
+  }
   &__btn-top {
     position: sticky;
     bottom: 40px;
@@ -56,11 +63,6 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .wrapper {
-    // overflow: hidden;
-  }
-}
 @media screen and (max-width: 560px) {
   .main {
     margin-bottom: -17px;

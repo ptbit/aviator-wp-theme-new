@@ -257,6 +257,13 @@ a {
   flex: 1 1 auto;
   position: relative;
 }
+.main__btn-top-w {
+  max-width: 1500px;
+  position: sticky;
+  z-index: 99;
+  bottom: 40px;
+  margin: 0 auto;
+}
 .main__btn-top {
   position: sticky;
   bottom: 40px;
