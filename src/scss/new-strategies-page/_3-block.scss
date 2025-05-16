@@ -542,6 +542,9 @@
 }
 @media screen and (max-width: 1000px) {
   .block {
+    &--1 {
+      padding-top: 30px;
+    }
     &__description {
       margin-bottom: 35px;
     }
@@ -650,6 +653,10 @@
 }
 @media screen and (max-width: 480px) {
   .block {
+    padding-top: 5px;
+    &--1 {
+      padding-top: 17px;
+    }
     &__container {
       padding-left: 0;
       padding-right: 0;
@@ -691,6 +698,7 @@
     }
     &__right {
       padding-bottom: 70px;
+      margin-bottom: 15px;
     }
     &__inputs {
       gap: 9px;

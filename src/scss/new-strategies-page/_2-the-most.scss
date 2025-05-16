@@ -12,6 +12,7 @@
   }
 
   &__column {
+    width: 100%;
   }
   .column {
     &__top {
@@ -28,8 +29,12 @@
     }
     &__title {
       margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
     }
     &__text {
+      position: relative;
+      z-index: 1;
       max-height: fit-content;
       overflow: hidden;
       &.short {
@@ -113,6 +118,7 @@
   .the-most {
     &__container {
       flex-direction: column;
+      padding-bottom: 30px;
     }
     .column {
       max-width: 662px;
