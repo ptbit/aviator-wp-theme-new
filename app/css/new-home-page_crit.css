@@ -161,6 +161,7 @@ a {
   position: relative;
 }
 .main__btn-top-w {
+  pointer-events: none;
   max-width: 1500px;
   position: sticky;
   z-index: 99;

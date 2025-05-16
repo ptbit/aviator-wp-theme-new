@@ -9,6 +9,7 @@
   flex: 1 1 auto;
   position: relative;
   &__btn-top-w {
+    pointer-events: none;
     max-width: 1500px;
     position: sticky;
     z-index: 99;
