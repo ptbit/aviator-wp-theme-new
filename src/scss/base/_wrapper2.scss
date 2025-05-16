@@ -17,6 +17,7 @@
     margin: 0 auto;
   }
   &__btn-top {
+    pointer-events: initial;
     position: sticky;
     bottom: 40px;
     left: 100%;
